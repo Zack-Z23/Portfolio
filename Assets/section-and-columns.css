@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import "base.css";
+
+/* Section */
+
+section{
+    margin: 0 auto;
+    display:flex ;
+    width: calc(33% - 12.5px);
+    height: 260px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-height: 560px;
+    background-color: #FFF;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: row;
+
+}
+
+section figure
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+section::before{
+    position: absolute;
+    content: "";
+    filter: blur(20px);
+    z-index: -1111;
+    flex-direction: row;
+
+
+}
+section figure img{
+    width: 50%;
+    height: 50%;
+
+}
+.row h1{
+    margin-top: 29px;
+    margin-bottom: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+}
+
+section p{
+    margin-top: 11px;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #222;
+}
+/* Row */
+.row
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color:#FFF;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+
+}
+input[type="button"]{
+
+width: 30%;
+height: 20%;
+text-align: center;
+background-color: #61cafd;
+border: 1px solid #61cafd;
+letter-spacing: .2px;
+font-weight: 600;
+color: black;
+cursor: pointer;
+}
+input[type="button"]:hover
+{
+    background-color: #FFF;
+    border: 1px solid #61cafd;
+}

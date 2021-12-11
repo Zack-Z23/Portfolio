@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    vertical-align: baseline;
+        -webkit-transition-duration: 0s;
+                transition-duration:0s ;
+          
+}
+body, input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", 
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   }
+p,a,li,label,input,textarea,div,span
+{
+    font-family: 'Nunito Sans', 'Open Sans','Arial', 'sans-serif';
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+
+    
+}

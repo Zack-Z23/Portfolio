@@ -1,0 +1,436 @@
+@charset "utf-8";
+@import "base.css";
+
+
+
+body
+{
+    overflow:visible;
+
+}
+
+header
+{
+    text-decoration: none;
+    width: 100%;
+    overflow: visible;
+    justify-content: right;
+}
+
+.con
+{
+    display: flex;
+    justify-content: space-between;
+     overflow: visible;
+    justify-content: flex-end;
+    background-color: rgba(166, 212, 255, 0.808);
+    width: 100%;
+
+}
+.overlay
+{
+    display: flex;
+    margin-right: 25%;
+    justify-content: flex-end;
+}
+.hero-banner {
+    background:url(../Assets/torrent-ga1840c5d1_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    height:100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    font-size: 46px;
+    color: #FFF;
+    
+}
+.banner h3{
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+
+}
+.banner hr{
+    width: 70%;
+    margin-top:70px;
+    margin: 0 auto;
+    border-top: 3px solid #FFF;
+}
+.banner p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+nav
+{
+    
+    color: white;
+    text-align: right;
+    height: 56px;
+    text-decoration: none;
+    padding-right: 45px;
+}
+nav ul {
+    display: flex;
+    list-style:none;
+    font-size: 0;
+    justify-content: flex-start;
+    
+}
+nav ul li {
+    
+    line-height: 56px;
+    cursor:default;
+    justify-content: flex-start;
+    
+}
+nav ul li:first-child
+{
+    justify-content: flex-start;
+}
+nav ul li a {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height: 56px;
+    letter-spacing: .4px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content:flex-start;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li + li{
+    margin-left:25px;
+}
+
+
+main
+{
+
+    height: 20px;
+    width: 100%;
+}
+main svg
+{
+
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+
+    
+}
+.under-footer
+{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
+    width: 100%;
+}
+.under-footer p{
+    height: 100%;
+    text-align: center;
+}
+img
+{
+    width: 25%;
+    height: 25%;
+}
+
+
+.col
+{
+    width: 100%;
+    padding: 15px;
+    height: 100%;
+}
+
+.col-content
+{
+    position: relative;
+    width: 100%;
+    padding: 24px 28px 29px 28px;
+    background-color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.button a {
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    margin-top: 34px;
+    line-height: 47px;
+
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 2.5 ease-in-out;
+}
+/* Footer */
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    font-size: 20px;
+
+}
+footer i{
+    color: #FFF;
+    margin-right: 15px;
+}
+.fa-instagram
+{
+    margin: 0;
+}
+/* Content */
+.content{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    padding-bottom: 109px;
+    justify-content: center;
+
+
+}
+.content h3
+{
+    font-size: 22px;
+    color: #303336;
+    font-weight: 700;
+}
+.content p{
+    margin-top: 9px;
+    font-size: 18px;
+    color: #303336;
+    font-weight: 500;
+}
+/* Form */
+.form
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.form h2
+{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(105, 196, 219);
+}
+
+.form p{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(110, 189, 209);
+}
+
+form
+{
+    margin-top: 15px;
+    width: 400px;
+    font-size: 0;
+    margin: 0 auto;
+}
+input
+{
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    background-color: whitesmoke;
+    border: 1px solid #61cafd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+
+    transition: all .25s  ease-in-out;
+
+}
+form input + input
+{
+    margin-top: 15px;
+}
+
+input:focus
+{
+    border: 1px solid #61cafd;
+}
+input[type="reset"]
+{
+    width: 110px;
+    height: 46px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid #61cafd;
+    letter-spacing: .2px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+input[type="reset"]:hover
+{
+ border: 1px solid #61cafd;
+ color: #61cafd;
+ animation: shake 1s cubic-bezier(0.36, 0.07,0.19, 0.97) both infinite;
+}
+input[type="submit"]
+{
+    margin-left: 15px;
+    width: 110px;
+    height: 46px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid #61cafd;
+    letter-spacing: .2px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+ color: #61cafd;
+ background-color: rgb(255, 255, 255);
+  animation: shake 2s cubic-bezier(0.36, 0.07,0.19, 0.97) both infinite;
+}
+ input[type="text"]:valid, [type="email"]:valid, textarea:valid
+{
+    background: #FFF url(../Assets/ok-48.png) no-repeat 96% center;
+    background-size: 13px 13px;
+    outline: none;
+}
+.button
+{
+    text-align: right;
+}
+textarea{
+    margin-top: 15px;
+    width: 100%;
+    min-width: 100%;
+    height: 200px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: whitesmoke;
+    border: 1px solid #61cafd;
+    border-radius: 4px;
+    resize: none;
+    overflow: auto;
+}
+
+/* Address */
+
+.image{
+    background-color: #FFF;
+    margin-top: 75px;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    width: 40%;
+    height: 45%;
+    text-align:center;
+}
+.image img{
+    width:100%;
+    height: 100%;
+}
+.image h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.image p{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+/* Above the row div */
+.above
+{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+
+}
+/* Row */
+.row img{
+    width: 30%;
+    height: 30%;
+}
+@keyframes shake{
+    10%,90%{transform: translate3D(-2px,0 ,0);}
+    20%, 80%{transform: translate3D(3px,0 ,0);}
+    30%, 50%, 70%{transform: translate3D(-5px,0 ,0);}
+    40%, 60%{transform: translate3D(6px,0 ,0);}
+}
+
+@media screen and (min-width:320px)
+{
+    nav{display: none;}
+    .mobile-nav{display: block;}
+}
+@media screen and (min-width:580px)
+{
+    nav{display: none;}
+    .mobile-nav{display: block;}
+}
+@media screen and (min-width:768px)
+{
+    nav{display: none;}
+    .mobile-nav{display: block;}
+    .container, .row-container
+    {
+        max-width: 800px;
+    }
+    nav{display: block;}
+    .mobile-nav{display: none;}
+    
+    .col-lg-3{
+        flex: 0 0 50%;
+        width:50%
+    }
+}
+@media screen and (min-width:1024px)
+{
+    .container, .row-container
+    {
+        max-width: 1140px;
+    }
+    nav{display: block;}
+    .mobile-nav{display: none;}
+    
+    .col-lg-3{
+        flex: 0 0 25%;
+        width:25%
+    }
+}
